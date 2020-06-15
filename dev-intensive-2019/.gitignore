@@ -1,6 +1,8 @@
-<<<<<<< HEAD
 # Built application files
 build/
+*.apk
+*.ap_
+*.aab
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -37,23 +39,6 @@ captures/
 # Google Services (e.g. APIs or Firebase)
 google-services.json
 
-# Version control
-vcs.xml
-=======
-# Built application files
-*.apk
-*.ap_
-*.aab
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Gradle files
-.gradle/
-
-# User-specific configurations
-*.iml
-
 # OS-specific files
 .DS_Store
 .DS_Store?
@@ -63,13 +48,12 @@ local.properties
 ehthumbs.db
 Thumbs.db
 
-# Version control
-vcs.xml
-
 # lint
 lint/intermediates/
 lint/generated/
 lint/outputs/
 lint/tmp/
 lint/reports/
->>>>>>> conflict
+
+# Version control
+vcs.xml
